@@ -1,7 +1,7 @@
 library('dplyr')
 
 my_url <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-my_dir <- file.path(path.expand('~'), 'GD_project')
+##my_dir <- file.path(path.expand('~'), 'GD_project')
 data_folder <- 'UCI HAR Dataset'
 
 betterName <- function (my_text) {  
